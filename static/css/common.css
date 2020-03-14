@@ -1,0 +1,600 @@
+.capital .box .title {
+    border-left: 2px solid #669ad6;
+    box-sizing: border-box;
+}
+
+.settlement .mainCon .line {
+    padding: 0.8rem 0;
+    color: #BDBDBD;
+}
+
+.settlement .mainCon .line:first-child {
+    color: #fff;
+}
+
+.settlement .title {
+    padding: 1rem 0;
+}
+
+.settlement {
+    padding-bottom: 2rem;
+}
+
+.capital>.title {
+    padding: 0.8rem 0;
+}
+
+.brb {
+    border-bottom: 1px solid #303030;
+}
+
+.capital .mainCon .box>div {
+    padding-left: 1.5rem;
+}
+
+.capital .mainCon .box {
+    margin-top: 2rem;
+}
+
+.capital .title .text {
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.en .capital .title .text {
+    max-width: 90%;
+    position: relative;
+    top: -4px;
+}
+
+.ziben {
+    color: #E17F26;
+    margin-left: 5px;
+    margin-right: 1px;
+}
+
+
+/* .en .ziben {
+    margin-left: 12px;
+    margin-right: 6px;
+} */
+
+.grow {
+    flex-grow: 1;
+}
+
+.capital .mainCon .text {
+    font-size: 1.3rem;
+}
+
+.capital {
+    padding-bottom: 3rem;
+}
+
+.capital .mainCon .box .num {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 1.7rem;
+}
+
+.capital .mainCon .box .text {
+    color: #3a7abe;
+}
+
+.Gamebonus {
+    color: rgb(153, 153, 255);
+    margin: 1.5rem 1.5rem;
+    padding: 0.1rem 0;
+}
+
+.shenqingNode {
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgb(255, 102, 0);
+    border-style: solid;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -1.6rem;
+    background-color: #FF6600;
+    width: 52px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.en .shenqingNode {
+    right: -2.2rem
+}
+
+.ruguzonge .shenqingNode {
+    position: relative;
+    left: 12px;
+    right: none;
+}
+
+.en .ruguzonge .shenqingNode {
+    left: 3px;
+}
+
+.colortex {
+    color: #808080;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer .tr {
+    padding: 6px 0;
+}
+
+.footer .tr .flex {
+    /* padding: 0 0.6rem; */
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.footer .tr .flex a {
+    text-decoration: none;
+}
+
+.footer .tr:nth-child(2) .flex:nth-child(3) {
+    letter-spacing: -0.7px;
+}
+
+.luange {
+    font-size: 1.5rem;
+    height: 5rem;
+    padding: 0 2rem;
+}
+
+.luange img {
+    width: 1.5rem;
+    margin-left: 7px;
+}
+
+.isnode {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 0;
+}
+
+.en .isnode {
+    position: absolute;
+    right: 0rem;
+    top: 0;
+}
+
+.pre {
+    position: relative;
+}
+
+.luange .logo {
+    width: 7rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.luange .logo img {
+    width: 100%;
+}
+
+.fuzhi {
+    color: #3a7abe;
+    margin-left: 18px;
+}
+
+.figure {
+    font-size: 1.2rem;
+}
+
+.figure .tr {
+    padding: 0 1rem;
+}
+
+.figure .box .line {
+    padding-left: 0.8rem;
+    position: relative;
+}
+
+.figure .box .line:nth-child(1) {
+    text-align: left;
+}
+
+.figure .box .line:last-child {
+    margin-top: 0.6rem;
+}
+
+.danwei {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2px;
+    padding-left: 6px;
+}
+
+.jieshu,
+.dengji {
+    font-size: 1.8rem;
+    color: #14C0AA;
+}
+
+.zonge,
+.yue {
+    color: #EC8826;
+}
+
+.yaoqingma {
+    font-size: 1.8rem;
+}
+
+.overbooking {
+    padding-bottom: 2rem !important;
+}
+
+.overbooking>.title,
+.capital>.title,
+.settlement>.title {
+    margin: 0 0.6rem;
+}
+
+.capital .title .left {
+    min-width: 60%;
+}
+
+.overbooking .conyazhu {
+    padding: 2rem 0;
+}
+
+.yazhuBtn {
+    height: 3.5rem;
+}
+
+.yazhuBtn {
+    padding-right: 30px;
+}
+
+.yazhuBtn .jian,
+.yazhuBtn .jia {
+    width: 4rem;
+    font-size: 24px;
+    background-color: #3c3c3c;
+}
+
+.yazhuBtn input {
+    height: 3.5rem;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    text-align: center;
+    color: #fff;
+}
+
+.touzhuBtn {
+    width: 12rem;
+    height: 3.5rem;
+    background-color: #482198;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.modelView {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background: #000;
+    z-index: 2000;
+}
+
+.isInjectedFalse .appinstall {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2222;
+    height: 68px;
+}
+
+.num1 {
+    color: #EA8827;
+}
+
+.num2 {
+    color: #14C0A8;
+}
+
+.overbooking,
+.capital,
+.settlement {
+    border-radius: 2px;
+}
+
+.overbooking>.title {}
+
+.conMt {
+    margin-top: 2rem;
+}
+
+
+/* .tixian {
+    border: 1px solid #535353;
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 25px;
+    text-indent: 4px;
+} */
+
+.pageTitle {
+    height: 3.5rem;
+}
+
+.overbooking .btngroup {
+    width: 100%;
+    border-radius: 30px;
+    background-color: #333;
+}
+
+.overbooking .btngroup .btn {
+    height: 3.2rem;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    color: #BDBDBD;
+}
+
+.overbooking .btngroup .btn>div {
+    width: 100%;
+    border-right: 1px solid #fff;
+}
+
+.overbooking .btngroup .btn:nth-child(4) .con {
+    border-right: none;
+}
+
+.conIcon {
+    width: 3rem;
+}
+
+.mainCon {
+    margin-left: 3rem;
+}
+
+.mainCon .left {}
+
+.bonusgame {
+    color: #fff;
+    background-image: url(../../static/images/background.jpg);
+    background-size: cover;
+    font-size: 1.4rem;
+}
+
+.bonusgame .wrap {
+    padding: 1.5rem;
+}
+
+.banner {}
+
+.banner .img {
+    width: 100%;
+    height: 12rem;
+    /* background-image: url(../../static/images/banner.png);
+    background-size: 100% 100%; */
+    margin: 0 auto;
+}
+
+.banner .img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.figure .box {
+    color: #fff;
+    border-left: 3px solid #669ad6;
+    margin-top: 2.5rem;
+}
+
+.overbooking {
+    background-color: #333333b5;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.settlement {
+    background-color: #333333b5;
+    padding-right: 3rem;
+    box-sizing: border-box;
+}
+
+.capital {
+    background-color: #333333b5;
+}
+
+.titleIcon {
+    width: 25px;
+}
+
+.yazhuBtn {}
+
+.appinstall {
+    background-color: #272147;
+}
+
+.installInfo div:first-child {
+    font-size: 1.6rem;
+}
+
+.installInfo div:last-child {
+    font-size: 0.8rem;
+}
+
+.installInfo {
+    padding-left: 0.6rem;
+}
+
+.appinstall {
+    padding: 0.7rem 1rem;
+}
+
+.yazhuBtn input {
+    width: 6rem;
+}
+
+.anzhuang {
+    width: 5.6rem;
+    height: 2.2rem;
+    border: 1px solid #f0f0f0;
+}
+
+.applogo img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.English .installInfo>div:last-child {
+    letter-spacing: -0.8px;
+    text-align: left;
+}
+
+.English .zongshouruTip {
+    letter-spacing: -0.8px;
+    text-align: left;
+}
+
+.English .zhinengheyue {
+    letter-spacing: -0.8px;
+    text-align: left;
+}
+
+.English .lianxifangshi {
+    letter-spacing: -0.8px;
+    text-align: left;
+}
+
+.English .tixian {
+    letter-spacing: 1px;
+}
+
+.gameModel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.gameModel .content {
+    width: 100%;
+    height: 50rem;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+}
+
+.gameModel {
+    color: #333333;
+    text-align: left;
+}
+
+.gameModel .textLine {
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+}
+
+.gameModel .content {
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.gameModel .content .title {
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid #f8f8f8;
+    color: #333;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.tixiannBtn,
+.ruguBtn {
+    padding: 0 0.3rem;
+    width: 50px;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: #482198;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.ruguBtn {
+    margin-left: 10px;
+}
+
+.icon-guanbi {
+    color: #a0a0a0;
+    font-size: 1.2rem;
+    position: absolute;
+    right: -0.6rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0.3rem 1.8rem;
+}
+
+.tuigu {
+    width: 42px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #FF6600;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: -1.6rem;
+}
+
+.en .tuigu {
+    right: -2.5rem;
+}
+
+.en .figure .tr:nth-child(2) .box:nth-child(3) .line:first-child {
+    letter-spacing: -0.4px;
+    left: -4px;
+}
+
+.ethNum {
+    /* position: absolute;
+    left: 23px;
+    bottom: -4px; */
+    text-align: left;
+}
+
+.en .zongshouruTip {
+    letter-spacing: -0.6px;
+    position: relative;
+    left: -3px;
+}
